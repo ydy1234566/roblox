@@ -231,3 +231,17 @@ Tab:AddButton({
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/bbn.lua"))()
   	end
 })
+
+Tab:AddButton({
+
+	Name = "卡卡飞行",
+
+	Callback = function()
+
+     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-V3-48359"))()
+
+  	end    
+
+})
+
+Tab:AddButton({
