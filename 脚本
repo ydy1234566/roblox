@@ -229,6 +229,7 @@ Tab:AddButton({
 	Name = "玩家进入提示",
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/bbn.lua"))()
+      	
   	end
 })
 
@@ -243,5 +244,3 @@ Tab:AddButton({
   	end    
 
 })
-
-Tab:AddButton({
