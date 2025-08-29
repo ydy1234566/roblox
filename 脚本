@@ -413,52 +413,57 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "忍者传奇",
-	Icon = "rbxassetid://7734068321",
+
+	Name = "小偷模拟器",
+
+	Icon = "rbxassetid://4483345998",
+
 	PremiumOnly = false
+
 })
 
-autoswing = false
-function swinging()
-    spawn(
-        function()
-            while autoswing == true do
-                task.wait()
-                game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("swingKatana")
-                if not autoswing then
-                    break
-                end
-            end
-        end
-    )
-end
-autosell = false
-function selling()
-    spawn(
-        function()
-            while autosell == true do
-                task.wait(.01)
-                if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
-                    game.workspace.sellAreaCircles["sellAreaCircle7"].circleInner.CFrame =
-                        game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame
-                    wait(.1)
-                    game.workspace.sellAreaCircles["sellAreaCircle7"].circleInner.CFrame =
-                        game.Workspace.Part.CFrame
-                    if not autosell then
-                        break
-                    end
-                end
-            end
-        end
-    )
-end
-autosellmax = false
-function maxsell()
-    spawn(
-        function()
-            while autosellmax == true do
-                task.wait()
-                if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
-                    if game.Players.LocalPlayer.PlayerGui.gameGui.maxNinjitsuMenu.Visible == true then
-                        game.workspace.sellAreaCircles["sellAreaCircle7"].circleInner.CFrame =
-                            game.Players.LocalPlayer.Cha
+Tab:AddButton({
+
+	Name = "小偷模拟器①",
+
+	Callback = function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/adrician/Thief-Simulator---GUI/main/Thief%20sim.lua"),true))()
+	end
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "餐厅大亨",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "餐厅大亨无限资金",
+
+	Callback = function()
+	loadstring(game:HttpGet("https://shz.al/~zkzkzisKAKAKK"))()
+	end
+})
+
+Tab:AddButton({
+
+	Name = "餐厅大亨①",
+
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/snake-hub/main/restaurant-tycoon-2.lua"))()
+	end
+})
+
+Tab:AddButton({
+
+	Name = "餐厅大亨②",
+
+	Callback = function()
+	loadstring(game:HttpGet("https://pastefy.app/Ppqt0Gib/raw"))()
+	end
+})
