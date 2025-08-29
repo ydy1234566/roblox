@@ -308,3 +308,111 @@ Tab:AddButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/scripts/main/GiantSurvival.lua"))()
     end
 })
+
+local Tab = Window:MakeTab({
+
+	Name = "极速传奇",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+	Name = "脚本"
+})
+
+Tab:AddButton({
+
+	Name = "青",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://rentry.co/ct293/raw'))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "剑客V4(需要加群组)",
+
+	Callback = function()
+
+jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://raw.githubusercontent.com/JianKeCX/JianKeV4/main/ChuXia')))()
+
+    end
+
+})
+
+Tab:AddButton({
+	
+	Name = "Boa",	
+	
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
+	
+	end
+
+})
+
+Tab:AddButton({
+	
+	Name = "汉化（改数值）",	
+	
+	Callback = function()
+	
+loadstring(game:HttpGet("https://pastebin.com/raw/egMXJcwB", true))()
+	
+	end
+	
+})
+
+Tab:AddButton({
+	Name = "开启卡宠",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uR6azdQQ"))()
+	end
+})
+
+Tab:AddButton({
+	Name = "自动重生和自动刷等级",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/T9wTL150"))()        
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "传送位置"
+})
+
+Tab:AddButton({
+	Name = "出生岛",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9682.98828125, 58.87917709350586, 3099.033935546875)      
+  	end    
+})
+
+Tab:AddButton({
+	Name = "白雪城",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9676.138671875, 58.87917709350586, 3782.69384765625)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "熔岩城",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11054.96875, 216.83917236328125, 4898.62841796875)       
+  	end    
+})
+
+Tab:AddButton({
+	Name = "传奇公路",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13098.87109375, 216.83917236328125, 5907.6279296875)    
+  	end    
+})
