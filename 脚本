@@ -256,3 +256,55 @@ mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.Req
 	end
 
 })
+
+local player = Window:MakeTab({
+	Name = "🔪杀手vs警长👩‍✈️",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+player:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0murder", true))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "👊最强拳击模拟器👊",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+player:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))();
+  	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "🌟生存巨人🌟",
+	Icon = "rbxassetid://7734068321",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "1",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/scripts/main/GiantSurvival.lua"))()
+    end
+})
+
+local Tab = Window:MakeTab({
+	Name = "🌟生存巨人🌟",
+	Icon = "rbxassetid://7734068321",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "1",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/scripts/main/GiantSurvival.lua"))()
+    end
+})
