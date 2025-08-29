@@ -93,9 +93,6 @@ local Tab = Window:MakeTab({
   Icon = "rbxassetid://7743866903",
   PremiumOnly = false
   })
-
-   Tab：AddButton})
-   Name = function
   loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
    end
 })
