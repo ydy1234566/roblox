@@ -209,3 +209,51 @@ end)
 about:Button("飞车",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/G3GnBCyC", true))()
 end)
+
+about:Button("无限跳",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/V5PQy3y0", true))()
+end)
+
+about:Button("反挂机",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9fFu43FF"))()
+end)
+
+about:Button("正常范围",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jiNwDbCN"))()
+end)
+
+about:Button("中等范围",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/x13bwrFb"))()
+end)
+
+about:Button("高级范围",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/KKY9EpZU"))()
+end)
+
+about:Button("飞檐走壁",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end)
+
+about:Button("隐身（E）",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/nwGEvkez'))()
+end)
+
+about:Button("电脑键盘",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+about:Button("无敌『不适用』",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/H3RLCWWZ'))()
+end)
+
+about:Button("爬墙",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end)
+
+local UITab3 = win:Tab("『墨水游戏汉化』",'7734068321')
+
+local about = UITab3:section("『墨水游戏汉化』",true)
+
+about:Button("墨水游戏",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hdjsjjdgrhj/script-hub/refs/heads/main/TexRBLlX"))()
+end)
