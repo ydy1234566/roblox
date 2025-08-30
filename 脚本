@@ -257,3 +257,19 @@ local about = UITab3:section("『墨水游戏汉化』",true)
 about:Button("墨水游戏",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hdjsjjdgrhj/script-hub/refs/heads/main/TexRBLlX"))()
 end)
+
+local UITab3 = win:Tab("『极速传奇』",'7734068321')
+
+local about = UITab3:section("『极速传奇』",true)
+
+about:Button("卡宠",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/uR6azdQQ"))()
+end)
+
+about:Button("自动刷等级和重生",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/T9wTL150"))()
+end)
+
+about:Button("整合包",function()
+loadstring(Game:HttpGet("https://pastebin.com/raw/0A4J7V8M"))()
+end)
