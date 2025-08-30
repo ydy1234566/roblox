@@ -273,3 +273,11 @@ end)
 about:Button("整合包",function()
 loadstring(Game:HttpGet("https://pastebin.com/raw/0A4J7V8M"))()
 end)
+
+local UITab3 = win:Tab("『👊最强拳击模拟器👊』",'7734068321')
+
+local about = UITab3:section("『👊最强拳击模拟器👊』",true)
+
+about:Button("最强脚本",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))();
+end)
