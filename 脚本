@@ -587,3 +587,11 @@ end)
 about:Button("力量传奇改力量",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
 end)
+
+local UITab3 = win:Tab("『脚本中心』",'7734068321')
+
+local about = UITab3:section("『脚本中心』",true)
+
+about:Button("皮脚本",function()
+getgenv().XiaoPi="皮脚本QQ群1002100032" loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/QQ1002100032-Roblox-Pi-script.lua"))()
+end)
