@@ -90,3 +90,6 @@ about:Slider('设置重力', 'Sliderflag', 196.2, 196.2, 1000,false, function(Va
         game.Workspace.Gravity = Value
     end)
 
+about:Button("卡卡飞行",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
