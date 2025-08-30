@@ -595,3 +595,11 @@ local about = UITab3:section("『脚本中心』",true)
 about:Button("皮脚本",function()
 getgenv().XiaoPi="皮脚本QQ群1002100032" loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/QQ1002100032-Roblox-Pi-script.lua"))()
 end)
+
+about:Button("皇脚本",function()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\87\115\78\83\122\78\110\100"))()
+end)
+
+about:Button("脚本中心XC",function()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\101\109\120\72\119\65\49"))()
+end)
