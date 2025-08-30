@@ -359,7 +359,7 @@ end)
 
 about:Button("最新",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
-end)=
+end)
 
 about:Button("DX",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DXuwu/replicator-lol/main/dor.lua"))()
