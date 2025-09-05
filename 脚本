@@ -623,3 +623,7 @@ local about = UITab3:section("『自然灾害』",true)
 about:Button("黑洞脚本v6",function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Super-ring-Parts-V6-28581"))()
 end)
+
+about:Button("时光倒流",function()
+loadstring(game:HttpGet("https://mscripts.vercel.app/scfiles/reverse-script.lua"))()
+end)
